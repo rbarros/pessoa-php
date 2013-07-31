@@ -1,0 +1,29 @@
+{
+    "name": "rbarros/pessoa-php",
+    "type": "library",
+    "description": "Entidade Pessoa PHP 5.3",
+    "keywords": ["pessoa","entidade"],
+    "homepage": "http://github.com/rbarros/pessoa-php",
+    "license": "MIT",
+    "authors":[
+        {
+            "name":"Ramon Barros",
+            "email": "contato@ramon-barros.com",
+            "homepage": "http://ramon-barros.com",
+            "role": "Developer"
+        }
+    ],
+    "require":{
+        "php":">=5.3.7",
+        "phpunit/phpunit": "3.7.1",
+        "illuminate/container": "4.0.x"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-0": { 
+            "": "src/" 
+        }
+    }
+}
